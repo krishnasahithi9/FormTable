@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.title {
+    position: relative;
+    text-align:center;
+}
+
+.placeholder {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #000;
+}
+
+.title span:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.first-name-field, .last-name-field {
+    width: 43%;
+}
+
+.first-name-field label, .last-name-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.first-name-field input[type="text"], .last-name-field input[type="text"] {
+    width: 90%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 1px;
+}
+
+.subject{
+    width:90%;
+    font-weight: bold;
+}
+.phone-fields {
+    display: block;
+    font-weight: bold ;
+}
+
+.phone-number-inputs {
+    display: flex;
+    
+}
+
+.phone-number-inputs select {
+    width: 20%;
+    height: 30px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.phone-number-inputs input[type="tel"] {
+    width: 70%;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+input[type="email"] {
+    width: 90%;
+    height: 20px;
+
+    margin-bottom: 2px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="tel"] {
+    width: 90%;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 90%;
+    height: 70px;
+    margin-bottom: 2px;
+    padding: 10px;
+    border: 1px solid
+}
+input[type="Submit"] {
+    width:90%;
+    margin: 0 auto; 
+    display: block; 
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

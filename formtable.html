@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in Touch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">
+        <span>Get in touch</span><br><br>
+        <span class="placeholder">We'd love to hear from you. Please fill out this form.</span></div><br><br>
+    <form id="contact-form">
+        <div class="name-fields">
+            <div class="first-name-field">
+                <label for="firstname">First name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="First name">
+            </div>
+            <div class="last-name-field">
+                <label for="lastname">Last name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Last name">
+            </div>
+        </div>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@company.com"><br><br>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject"><br><br>
+        <div class="phone-fields">
+            <label for="phone">Phone Number</label>
+            <div class="phone-number-inputs">
+                <select id="country-code" name="country-code">
+                    <option value="USA">USA</option>
+                </select>
+                <input type="tel" id="phone" name="phone" placeholder="555 000-0000">
+            </div>
+        </div>
+        <br><br>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" cols="20"></textarea><br><br>
+        <input type="Submit" value="Send message">
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
